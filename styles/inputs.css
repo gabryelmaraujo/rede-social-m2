@@ -1,0 +1,21 @@
+#new-post-title {
+    max-width: 100%;
+    width: 96%;
+    height: 40px;
+
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+
+#new-post-description {
+    max-width: 100%;
+    width: 96%;
+
+    padding-left: 16px;
+
+    margin-bottom: 20px;
+    
+    resize: none;
+
+
+}

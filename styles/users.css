@@ -1,0 +1,20 @@
+#user-img {
+    width: var(--user-img-w)
+}
+
+#user-name {
+    font-family: var(--user-font);
+    font-size: var(--title-2-fs);
+    font-weight: var(--title-2-fw);
+    line-height: var(--title-2-lh);
+
+}
+
+#user-description {
+    font-family: var(--user-font);
+    font-size: var(--text-2-fs);
+    font-weight: var(--text-2-fw);
+    line-height: var(--text-2-lh);
+
+    color: var(--grey-2);
+}

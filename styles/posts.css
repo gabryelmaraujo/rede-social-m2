@@ -1,0 +1,106 @@
+
+.postsContainer {
+    width: 650px;
+    height: 900px;
+
+}
+
+.postsTitle {
+    margin-bottom: 50px;
+}
+
+#posts-title {
+    font-size: var(--title-1-fs);
+    font-weight: var(--title-1-fw);
+}
+
+
+/* NEW POST*/
+.postCreator {
+    display: flex;
+    align-items: center;
+}
+
+.creatorInfo {
+    margin-left: 12px;
+}
+
+.buttonNewPost {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+
+/* POSTS */
+.allPosts {
+    margin-top: 10px;
+    max-width: 100%;
+    width: 650px;
+
+}
+
+.posts {
+    overflow: auto;
+    height: 650px;
+}
+
+.post {
+
+    max-width: 100%;
+    height: 300px;
+
+    margin-bottom: 50px;
+}
+
+.postTitle {
+    margin-top: 34px;
+}
+
+.postTitle h2 {
+    font-size: var(--title-1-fs);
+    font-weight: var(--title-1-fw);
+
+}
+
+.postDescription article p {
+    margin-top: 20px;
+    font-size: var(--text-1-fs);
+    font-weight: var(--text-1-fw);
+    text-align: justify;
+    margin-right: 5px;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: none;
+  }
+  
+*::-webkit-scrollbar-thumb {
+    background-color: var(--grey-3);
+    border-radius: var(--radius-main);
+    border: none;
+  }
+
+  @media (max-width: 500px) {
+    .allPosts{
+        margin-top: 320px;
+        max-width: 500px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .newPost {
+        max-width: 500px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .posts {
+        height: 200px;
+    }
+
+  }

@@ -1,0 +1,72 @@
+
+.showPost {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+
+
+    top: 0;
+    left: 0;
+    z-index: 3000;
+
+    background-color: rgba(0, 0, 0, .5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal-window {
+    border: 1px white solid;
+    width: 760px;
+    height: 540px;
+
+    background-color: white;
+
+    padding: 40px 24px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.modal-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.modal-img img {
+    width: 52px;
+    margin-right: 12px;
+}
+
+.title-post {
+    margin-bottom: 20px;
+    font-size: var(--title-1-fs);
+    font-weight: var(--title-1-fw);
+}
+
+.modal-article p {
+    font-size: var(--text-1-fs);
+    font-weight: var(--text-1-fw);
+
+    color: var(--grey-2);
+
+    text-align: justify;
+}
+
+@media (max-width: 500px) {
+
+    .showPost {
+        height: 100%;
+    }
+
+    .modal-window {
+        width: 80%;
+    }
+
+}

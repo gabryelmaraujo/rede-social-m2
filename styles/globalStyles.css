@@ -1,29 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-:root{
-    --color-grey-1: #212529;
-    --color-grey-2: #495057;
-    --color-white-fixed: #ffffff;
-    --radius-1: 0.25rem;
-    --font-family-1: "Inter", sans-serif;
-}
+:root {
+    /* BRAND COLOR */
+    --color-brand-1: #4263EB;
+    --color-brand-2: #364FC7;
 
-body{
-    font-family: var(--font-family-1);
-}
+    /* GREY SCALE */
+    --grey-0: #0A0C0D;
+    --grey-1: #212529;
+    --grey-2: #495057;
+    --grey-3: #868E96;
+    --grey-4: #DEE2E6;
+    --grey-5: #F8F9FA;
+    --grey-opacity-1: rgba(33, 37, 41, 0.5);
+    
+    /* WHITE*/
+    --white: #FFFFFF;
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
+    /* FEEDBACK PALETTE */
+    --like-color: #D7443E;
 
-ul{
-    list-style: none;
+    /* FONT */
+    --main-font: 'Inter', sans-serif;
+    --user-font: 'Nunito', sans-serif;
+
+    /* TITLES */
+    --title-1-fw: 700;
+    --title-1-fs: 28px;
+    --title-1-lh: 40px;
+    
+    --title-2-fw: 600;
+    --title-2-fs: 20px;
+    --title-2-lh: 24px;
+
+    /* TEXTS */
+    --text-1-fw: 400;
+    --text-1-fs: 16px;
+    --text-1-lh: 28px;
+
+    --text-2-fw: 400;
+    --text-2-fs: 14px;
+    --text-2-lh: 16px;
+
+    --text-3-fw: 400;
+    --text-3-fs: 12px;
+    --text-3-lh: 16px;
+
+    /* USER IMG SIZE */
+    --user-img-w: 52px;
+    --user-img-h: 52px;
+
+    /* RADIUS */
+    --radius-main: 4px;
+    --radius-follow: 2px;
+
+
 }

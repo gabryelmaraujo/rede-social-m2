@@ -1,0 +1,38 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: black 1px solid;
+
+    max-width: 100%;
+    width: 1440px;
+    height: 76px;
+    padding: 30px 100px 30px 100px;
+
+    background-color: black;
+
+    border-radius: 0;
+
+    position: absolute;
+}
+
+.logoNav h2 {
+    color: white;
+    font-size: var(--title-2-fs);
+    font-weight: var(--title-2-fw);
+}
+
+.menuNav a {
+    color: white;
+    font-size: var(--text-2-fs);
+    font-weight: var(--text-2-fw);
+}
+
+
+@media (max-width: 500px) {
+    nav {
+        max-width: 100%;
+    }
+}

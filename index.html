@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPosters</title>
+
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+
+    <link rel="stylesheet" href="/styles/inputs.css">
+    <link rel="stylesheet" href="/styles/users.css">
+    <link rel="stylesheet" href="/styles/buttons.css">
+    <link rel="stylesheet" href="/styles/posts.css">
+    <link rel="stylesheet" href="/styles/aside.css">
+    <link rel="stylesheet" href="/styles/nav.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+
+
+
+
+    <link rel="stylesheet" href="/pages/home/index.css">
+
+</head>
+<body>
+    <nav>
+        <section class="logoNav">
+            <h2>TechPosters</h2>
+        </section>
+        <section class="menuNav">
+            <ul>
+                <li><a href="">Sair</a></li>
+            </ul>
+        </section>
+    </nav>
+
+    <main class="container">
+        <main class="postsContainer">
+
+            <section class="newPost">
+                <section class="postCreator">
+                    <div class="userImg">
+                        <img src="/assets/img/noUser.png" alt="Foto do usuário" id="user-img">
+                    </div>
+                    <section class="creatorInfo">
+                        <div class="userName">
+                            <h2 id="user-name">Visitante</h2>
+                        </div>
+                        <div class="userDescription">
+                            <p id="user-description">Faça login</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="postInfos">
+                    <div class="new-post-title">
+                    <input type="text" name="post-title" id="new-post-title" placeholder="Digite o título do seu post...">
+                    </div>
+
+                    <div class="new-post-description">
+                        <label for="post-description">Descrição</label>
+                        <textarea name="post-description" id="new-post-description" cols="83" rows="10"></textarea>
+                    </div>
+
+
+                </section>
+
+                <section class="buttonNewPost">
+                    <button type="submit" id="new-post-button">Enviar</button>
+
+                </section>
+
+            </section>
+
+            <section class="allPosts">
+                <div class="postsTitle">
+                    <h2 id="posts-title">Posts</h2>
+                </div>
+
+                <ul class="posts">
+
+                </ul>
+
+            </section>
+
+        </main>
+        <aside class="socialContainer">
+            <section class="asideTitle">
+                <h2 id="aside-title">Sugestões para você seguir</h2>
+            </section>
+            <section class="asideMain">
+                <ul class="socialMedia">
+                        
+                </ul>
+            </section>
+        </aside>
+    </main>
+
+    <script src="/script/database/posts.js"></script>
+    <script src="/script/database/sugestUsers.js"></script>
+    <script src="/script/database/users.js"></script>
+    <script src="/pages/home/index.js"></script>
+</body>
+</html>
