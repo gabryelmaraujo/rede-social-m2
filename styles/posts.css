@@ -1,7 +1,6 @@
 
 .postsContainer {
     width: 650px;
-    height: 900px;
 
 }
 
@@ -71,32 +70,32 @@
     margin-right: 5px;
 }
 
-*::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-*::-webkit-scrollbar-track {
-    background: none;
-  }
-  
-*::-webkit-scrollbar-thumb {
-    background-color: var(--grey-3);
-    border-radius: var(--radius-main);
-    border: none;
-  }
+
 
   @media (max-width: 500px) {
     .allPosts{
         margin-top: 320px;
-        max-width: 500px;
+        max-width: 100%;
         padding-left: 5px;
         padding-right: 5px;
     }
 
+    .postsContainer {
+        width: 100%;
+    }
+
     .newPost {
-        max-width: 500px;
+        max-width: 100%;
         padding-left: 5px;
         padding-right: 5px;
+        margin: 0 auto;
+    }
+
+    .creatorInfo {
+        max-width: 100%;
+    }
+    .creatorInfo .userName h2{
+        max-width: 100%;
     }
 
     .posts {

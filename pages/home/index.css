@@ -16,6 +16,20 @@
     }
 }
 
-/* @media (max-width: 500px) {} */
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: none;
+  }
+  
+*::-webkit-scrollbar-thumb {
+    background-color: var(--grey-3);
+    border-radius: var(--radius-main);
+    border: none;
+  }
 
+/* @media (max-width: 500px) {} */
 

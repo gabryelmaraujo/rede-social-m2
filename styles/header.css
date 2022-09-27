@@ -1,0 +1,44 @@
+@media (max-width: 500px) {
+
+
+    nav {
+    background-color: black;
+    color: var(--white);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+    border-radius: 0;
+    padding: 0 10px;
+    }
+
+    .menuNav ul li a {
+        color: var(--white);
+    }
+
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    background-color: black;
+    color: var(--white);
+    font-weight: 600;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+    border-radius: 0;
+    padding: 0 80px;
+}
+.menuNav ul li a {
+    color: var(--white);
+    font-size: var(--text-2-fs);
+    font-weight: var(--text-2-fw);
+}

@@ -20,6 +20,11 @@
     overflow-y: auto;
 }
 
+.asideMain ul {
+    display: flex;
+    flex-direction: column;
+}
+
 .asideMain ul li {
     display: flex;
     justify-content: space-between;
@@ -44,12 +49,25 @@
 @media (max-width: 500px) {
     .socialContainer {
         position: absolute;
-        top: 520px;
-        left: 45px;
+        top: 580px;
+        padding: 0 10px;
+        max-width: 100%;
     }
 
     .asideMain {
         height: 150px;
     }
 
+    .asideMain ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .asideMain ul li {
+        margin-bottom: 0;
+        margin-right: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
